@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Soos.Io.SampleProject</id>
+    <version>1.0.0</version>
+    <title>$title$</title>
+    <authors>soos</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/soos-io/sample-project-nuget</projectUrl>
+    <description>This repository is an example of a vulnerable package on a public registry</description>
+    <releaseNotes>Add typo and substitution packages</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Example</tags>
+    <readme>docs\README.md</readme>
+    <icon>images\SampleProject.png</icon>
+    <dependencies>
+      <dependency id="Microsoft.Aspnetcore.Mvc.Formatters.Json" version="2.2.0" />
+      <dependency id="ADSIntacct" version="1.1.6" />
+      <dependency id="System.Drawing.Common" version="4.7.0" />
+      <dependency id="PackageA" version="12.1.0" />
+      <dependency id="PackageB" version="12.2.0" />
+      <dependency id="NonExistantPackage" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Icons\SampleProject.png" target="images\"></file>
+    <file src="..\..\README.md" target="docs\"></file>
+  </files>
+</package>
