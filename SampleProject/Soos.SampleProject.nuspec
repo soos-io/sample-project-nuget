@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Soos.Io.SampleProject</id>
+    <id>Soos.SampleProject</id>
     <version>1.0.0</version>
     <title>$title$</title>
     <authors>soos</authors>
@@ -18,9 +18,9 @@
       <dependency id="Microsoft.Aspnetcore.Mvc.Formatters.Json" version="2.2.0" />
       <dependency id="ADSIntacct" version="1.1.6" />
       <dependency id="System.Drawing.Common" version="4.7.0" />
-      <dependency id="PackageA" version="12.1.0" />
-      <dependency id="PackageB" version="12.2.0" />
-      <dependency id="NonExistantPackage" version="2.0.0" />
+      <!--<dependency id="PackageA" version="12.1.0" />-->
+      <!--<dependency id="PackageB" version="12.2.0" />-->
+      <!--<dependency id="NonExistantPackage" version="2.0.0" />-->
     </dependencies>
   </metadata>
   <files>
