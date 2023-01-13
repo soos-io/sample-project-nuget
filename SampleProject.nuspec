@@ -8,7 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/soos-io/sample-project-nuget</projectUrl>
-    <description>This repository is an example of a vulnerable package on a public registry</description>
+    <description>This repository is an example of a vulnerable package on a public registry. It is used for testing purposes.</description>
     <releaseNotes>Add typo and substitution packages</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Example</tags>
