@@ -1,10 +1,32 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <Version>1.0.1</Version>
+    <Company>soos.io</Company>
+    <Description>SOOS ( https://soos.io ) is an independent software security company, located in Winooski, VT USA, building security software for your team. Used for testing purposes, this package is an example of a vulnerable package on a public registry.</Description>
+    <PackageProjectUrl>https://soos.io</PackageProjectUrl>
+    <PackageIcon>Soos.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/soos-io/sample-project-nuget</RepositoryUrl>
+    <PackageTags>soos;sca;package;sample;project;example;vulnerabilities;licenses;sbom;governance;dast;open source;oss</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Soos.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Aspnetcore.Mvc.Formatters.Json" Version="2.2.0" />
     <PackageReference Include="ADSIntacct" Version="1.1.6" />
