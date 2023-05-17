@@ -29,6 +29,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="system.text.encodings.web" Version="4.5.1" />
     <PackageReference Include="Microsoft.Aspnetcore.Mvc.Formatters.Json" Version="2.2.0" />
     <PackageReference Include="ADSIntacct" Version="1.1.6" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
