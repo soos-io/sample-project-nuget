@@ -10,4 +10,6 @@ If you maintain an Open Source project, sign up for the Free as in Beer [SOOS Co
 
 ## sample-project-nuget
 
+[![Dependency Vulnerabilities](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-hooks.soos.io%2Fapi%2Fshieldsio-badges%3FbadgeType%3DDependencyVulnerabilities%26pid%3Dymqnr5ujl%26branchName%3Dmain%26packageVersion%3Dlatest-stable)](https://app.soos.io/research/packages/nuget/-/Soos.SampleProject)
+
 This repository is an example of a vulnerable package on a public registry. It is used for testing purposes.
